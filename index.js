@@ -16,7 +16,7 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
-app.get("/", (req, res) => {
+app.get("https://social-network.samuraijs.com/api/1.0/", (req, res) => {
   res.send({ message: "Hello World!" });
 });
 
